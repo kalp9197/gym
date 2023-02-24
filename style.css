@@ -1,8 +1,18 @@
+*::selection {
+  color: #7cb9e8;
+}
+
+ /* _______________________________________ABOUT SECTION_______________________________________  */
+#about_info {
+  font-size: large;
+}
+
 
 #About {
   background-color: #e9ecef;
   padding-bottom: 20px ;
 }
+
 #navbar_items li a {
   font-weight: bold;
 }
@@ -14,26 +24,37 @@
   border-top: 1px solid red;
   border-bottom: 1px solid red;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  
 }
+
 nav ul li {
   list-style: none;
 }
+
+li {
+  list-style: circle;
+}
+
 #dumbell_icon:hover{
   transform: rotate(360deg);
   transition: all;
   transition-duration:1000ms;
 }
 
-#about_info {
-  font-size: large;
+#program_cards .card:hover {
+  transition: all 0.35s ease-in;
+  transition-delay: 50ms;
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #price_ul {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
-li {
-  list-style: circle;
+
+
+/* _______________________________________SERVICE SECTION_________________________________ */
+#service {
+  padding: 100px;  
 }
 .plan {
   border-radius: 5px;
@@ -45,17 +66,6 @@ li {
   
 }
 
-#program_cards .card:hover {
-  transition: all 0.35s ease-in;
-  transition-delay: 50ms;
-  transform: scale(1.1);
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-#service {
-  padding: 100px;  
-}
-
 .plan:hover {
   background-color: lightsalmon;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
@@ -63,9 +73,9 @@ li {
   cursor: pointer;
 }
 
-*::selection {
-  color: #7cb9e8;
-}
+
+
+/* _________________________________TESTIMONIALS SECTION__________________________________  */
 #testimonials {
   background-color: #f7f7f7;
   padding: 50px 0;
@@ -101,9 +111,11 @@ li {
   color: #666;
 }
 
+
 #contact {
   padding: 100px;
 }
+
 
 @media only screen and (max-width: 480px) {
   html,
