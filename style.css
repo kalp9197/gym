@@ -9,6 +9,10 @@ p,li{
 
 }
 
+.carousel-inner{
+  width:1366px;
+  height:768px;
+}
 
  /* _______________________________________ABOUT SECTION_______________________________________  */
 #about_info {
