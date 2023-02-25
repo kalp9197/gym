@@ -269,7 +269,7 @@
   <!-- ________________________________CONTACT SECTION________________________________ -->
   <div id="contact" class="container-fluid">
     <h1 class="display-4 pb-3">Contact Us</h1>
-    <form action="" >
+    <form class="was-validated">
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" class="form-control" id="name" name="name" required>
@@ -281,11 +281,7 @@
         <input type="email" class="form-control" id="email" name="email" required>
         <div class="invalid-feedback">Please enter a valid email address.</div>
       </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" class="form-control" id="password" name="password" required>
-        <div class="invalid-feedback">Please enter a password.</div>
-      </div>
+
       <div class="form-group">
         <label for="membership">Membership:</label>
         <select class="form-control" id="membership" name="membership" required>
@@ -297,7 +293,7 @@
         <div class="invalid-feedback">Please select a membership type.</div>
       </div>
       <div class="form-group">
-        <input type="submit" value="Submit" class="btn btn-outline-primary btn-lg" onclick="success()">
+        <input type="submit" value="Submit" class="btn btn-outline-primary btn-lg" onclick="validate()">
       </div>
     </form>
   </div>
